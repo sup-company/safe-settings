@@ -1,6 +1,6 @@
+_extends: repository  
 repository:
-  name: settings
-  description: Pull Requests for GitHub repository settings
-  homepage: https://github.com/apps/settings
-  topics: probot-app, github-app
-  has_wiki: false
+  allow_auto_merge: true
+  delete_branch_on_merge: true
+  enable_vulnerability_alerts: true
+  default_branch: main
